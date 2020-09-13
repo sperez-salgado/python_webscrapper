@@ -1,7 +1,8 @@
-import pycurl
+import pycurl			# Using Python's cURL implentation
+import certifi
 from appJar import gui
 from io import BytesIO
-import certifi
+
 
 htmlbuffer = BytesIO()
 
